@@ -2,8 +2,7 @@ import React from "react"
 
 export default function MainContent() {
     return(
-        <div>
-            
+        <div className = "MainComponent">
             <h1>Hi! I'm Xyd.</h1>
             <h1>Fun facts about me</h1>
             <ul>

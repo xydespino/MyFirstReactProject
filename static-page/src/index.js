@@ -1,18 +1,19 @@
 import React from "react"
-import ReactDom from "react-dom"
+import ReactDOM from "react-dom"
 import Header from "./Header"
-import Header from "./MainComponent"
-import Header from "./Footer"
+import MainComponent from "./MainComponent"
+import Footer from "./Footer"
 
 function Page (){
     return(
         <div>
         <Header />
-        <MainContent />
+        <MainComponent />
         <Footer />
         </div>
     )
 }
 
+ReactDOM.render(<Page />,document.getElementById("root"))
 
-ReactDOM.render(<Hello/ >, document.getElementById("root"))
+

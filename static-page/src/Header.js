@@ -4,7 +4,6 @@ export default function Header(){
     return(
             <header>
                 <nav className = "nav">
-                    <img src = "./img/logolight.png" className = "logo"/>
                     <ul className = "nav-items">
                         <li>Pricing</li>
                         <li>About</li>
